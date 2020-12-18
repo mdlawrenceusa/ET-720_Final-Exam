@@ -1,0 +1,119 @@
+<div class="grid-x grid-margin-x" data-equalizer data-equalize-on="medium" id="test-eq">
+
+  <div *ngFor="let image of _albums; index as i">
+    <div class="cell medium-4">
+      <div class="callout" data-equalizer-watch>
+        <img class="thumbnail"  [src]="image.src"  width="200"  (click)="open(i)" />
+        <h5>{{ image.caption }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Thumbnail Foundation Code
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+
+    <div *ngFor="let image of _albums; index as i">
+      <div class="cell small-4">
+        <img class="thumbnail"  [src]="image.src"  width="100"  (click)="open(i)" />
+        <!--<h5>{{ image.caption }}</h5> 
+      </div>
+    </div>
+  </div> 
+
+
+
+
+<div class="featured-image-block-grid">
+  <div class="featured-image-block-grid-header small-10 medium-8 large-7 cell text-center">
+    <h2>Top Destinations</h2>
+    <p>Start planning your travels here with the latest deals for popular destinations.</p>
+  </div>
+  <div class="row large-up-4 small-up-2">
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=899" />
+        <p class="text-center featured-image-block-title">New York</p>
+      </a>
+    </div>
+    
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=693" />
+        <p class="text-center featured-image-block-title">San Francisco</p>
+      </a>
+    </div>
+    
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=452" />
+        <p class="text-center featured-image-block-title">Las Vegas</p>
+      </a>
+    </div>
+    
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=792" />
+        <p class="text-center featured-image-block-title">Sacramento</p>
+      </a>
+    </div>
+    
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=667" />
+        <p class="text-center featured-image-block-title">Los Angeles</p>
+      </a>
+    </div>
+  
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=249" />
+        <p class="text-center featured-image-block-title">Chicago</p>
+      </a>
+    </div>
+    
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=382" />
+        <p class="text-center featured-image-block-title">Boston</p>
+      </a>
+    </div>
+
+    <div class="featured-image-block column">
+     <a href="#">
+        <img src="https://unsplash.it/600/440?image=1075" />
+        <p class="text-center featured-image-block-title">Seattle</p>
+      </a>
+    </div>
+  </div>
+</div>
+-->
+
+
+
+
+
+
+
+
